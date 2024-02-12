@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+html {
+  background-color: #ede6d6;
+  font-family: "Dancing Script";
+}
+html .imgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+html .imgs h1 {
+  font-size: 50px;
+  color: #f56991;
+  text-align: center;
+  font-weight: 10000;
+}
+html .imgs img {
+  height: 250px;
+}
+html .bsec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+html .bsec .b {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+html .bsec .b button {
+  font-family: "Dancing Script";
+  font-weight: 900;
+  font-size: 40px;
+  padding: 10px;
+  color: #ede6d6;
+  border-radius: 4px;
+  border: none;
+  width: 150px;
+}
+html .bsec .b .yes button {
+  background-color: rgb(84, 208, 84);
+}
+html .bsec .b .no button {
+  background-color: rgb(212, 69, 69);
+}/*# sourceMappingURL=style.css.map */
